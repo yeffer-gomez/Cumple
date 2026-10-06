@@ -3,56 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#ff5c8a">
-  <title>Feliz Cumpleaños 🎂</title>
+  <meta name="theme-color" content="#35182d">
+  <title>Para Mafe ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="background" aria-hidden="true">
-    <span class="orb orb1"></span><span class="orb orb2"></span>
-    <span class="orb orb3"></span>
-  </div>
+  <div class="background" aria-hidden="true"><div class="glow glow1"></div><div class="glow glow2"></div><div class="stars"></div></div>
 
-  <main class="page">
+  <main>
     <section class="hero" id="hero">
-      <div class="sparkles" aria-hidden="true"></div>
-      <p class="eyebrow">✨ Hoy es un día muy especial ✨</p>
-      <h1>¡Feliz<br><span>Cumpleaños!</span></h1>
-      <p class="intro">Tengo una pequeña sorpresa preparada especialmente para ti.</p>
+      <p class="eyebrow">Para alguien muy especial</p>
+      <div class="line"></div>
+      <h1>Feliz <em>cumpleaños</em></h1>
 
       <button class="gift" id="giftButton" aria-label="Abrir regalo">
-        <span class="gift-lid"></span>
-        <span class="gift-box"></span>
-        <span class="gift-ribbon vertical"></span>
-        <span class="gift-ribbon horizontal"></span>
-        <span class="gift-bow bow-left"></span>
-        <span class="gift-bow bow-right"></span>
+        <span class="gift-bow bow-left"></span><span class="gift-bow bow-right"></span>
+        <span class="gift-lid"></span><span class="gift-box"></span>
+        <span class="gift-ribbon vertical"></span><span class="gift-ribbon horizontal"></span>
       </button>
-      <p class="hint">Toca el regalo para abrirlo 🎁</p>
+      <p class="hint">Abre tu sorpresa <span>♡</span></p>
+    </section>
+
+    <section class="character-section hidden" id="characterScene">
+      <div class="scene-content">
+        <div class="character-stage">
+          <div class="stage-glow"></div>
+          <img class="character-image" src="mafe-ramo.png" alt="Personaje entregando un ramo de rosas a Mafe">
+          <div class="floating-heart heart-one">♥</div>
+          <div class="floating-heart heart-two">♡</div>
+          <div class="floating-heart heart-three">♥</div>
+        </div>
+        <p class="offer-caption">para ti,🌹</p>
+      </div>
     </section>
 
     <section class="message hidden" id="message">
-      <div class="card">
-        <div class="cake">🎂</div>
-        <p class="small-title">Para alguien muy especial</p>
-        <h2>¡Feliz cumpleaños, <span id="name">[Nombre]</span>! ❤️</h2>
+      <div class="letter-paper">
+        <div class="letter-ornament top">❦</div>
+        <p class="letter-greeting">¡Feliz cumpleaños,</p>
+        <h2>Mafe! <span>♥</span></h2>
+
+        <div class="letter-divider">✦ ❦ ✦</div>
+
         <p>
-          Hoy quiero desearte un día lleno de sonrisas, momentos bonitos
-          y personas que te hagan sentir lo especial que eres.
+          Feliz cumpleaños a la persona que se volvió muy especial en mi vida.
         </p>
         <p>
-          Que este nuevo año de vida venga cargado de sueños cumplidos,
-          aventuras increíbles y muchísimas razones para sonreír.
+          Mis más bonitos deseos para ti, que lleguen cosas bonitas a su vida
+          y se puedan cumplir todas sus metas y sueños.
         </p>
-        <p class="final">Espero que disfrutes muchísimo tu día. 🥳✨</p>
-        <button class="again" id="againButton">✨ Ver la sorpresa otra vez</button>
+        <p>
+          Un abrazo muy grande a la distancia.
+        </p>
+
+        <p class="letter-final">Te quiero mucho,<br>Mi Amor Mafe. <span>♥</span></p>
+
+        <div class="letter-divider bottom">✦ ❦ ✦</div>
+        <div class="letter-ornament bottom-ornament">❦</div>
       </div>
     </section>
   </main>
 
   <div class="confetti-container" id="confetti" aria-hidden="true"></div>
   <div class="hearts" id="hearts" aria-hidden="true"></div>
-
   <script src="script.js"></script>
 </body>
 </html>

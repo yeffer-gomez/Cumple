@@ -1,23 +1,18 @@
-# Página de cumpleaños 🎂
+# Página de cumpleaños para Mafe ❤️
 
-## Personalizar
-Abre `script.js` y cambia:
+Página romántica y elegante para GitHub Pages.
 
-```js
-document.getElementById("name").textContent = "Nombre";
-```
+## Archivos
+- index.html
+- style.css
+- script.js
 
-por el nombre de la persona.
+## Publicar
+Sube los tres archivos a la raíz del repositorio, en la rama `main`, y activa GitHub Pages desde Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
-También puedes editar el mensaje directamente en `index.html`.
 
-## Publicar en GitHub Pages
-1. Crea un repositorio en GitHub.
-2. Sube `index.html`, `style.css` y `script.js`.
-3. Ve a **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Selecciona `main` y la carpeta `/ (root)`.
-6. Guarda y espera unos minutos.
+La página incluye `mafe-ramo.png`, una ilustración romántica con animación CSS que simula el gesto de acercar el ramo.
 
-Tu página quedará disponible en:
-`https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`
+
+### Actualización
+Se reemplazó la ilustración por la nueva composición con el personaje más pequeño y el mensaje destacado, y la carta posterior usa un estilo de papel antiguo inspirado en la ilustración.
