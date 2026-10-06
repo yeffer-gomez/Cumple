@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff5c8a">
+  <title>Feliz Cumpleaños 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background" aria-hidden="true">
+    <span class="orb orb1"></span><span class="orb orb2"></span>
+    <span class="orb orb3"></span>
+  </div>
+
+  <main class="page">
+    <section class="hero" id="hero">
+      <div class="sparkles" aria-hidden="true"></div>
+      <p class="eyebrow">✨ Hoy es un día muy especial ✨</p>
+      <h1>¡Feliz<br><span>Cumpleaños!</span></h1>
+      <p class="intro">Tengo una pequeña sorpresa preparada especialmente para ti.</p>
+
+      <button class="gift" id="giftButton" aria-label="Abrir regalo">
+        <span class="gift-lid"></span>
+        <span class="gift-box"></span>
+        <span class="gift-ribbon vertical"></span>
+        <span class="gift-ribbon horizontal"></span>
+        <span class="gift-bow bow-left"></span>
+        <span class="gift-bow bow-right"></span>
+      </button>
+      <p class="hint">Toca el regalo para abrirlo 🎁</p>
+    </section>
+
+    <section class="message hidden" id="message">
+      <div class="card">
+        <div class="cake">🎂</div>
+        <p class="small-title">Para alguien muy especial</p>
+        <h2>¡Feliz cumpleaños, <span id="name">[Nombre]</span>! ❤️</h2>
+        <p>
+          Hoy quiero desearte un día lleno de sonrisas, momentos bonitos
+          y personas que te hagan sentir lo especial que eres.
+        </p>
+        <p>
+          Que este nuevo año de vida venga cargado de sueños cumplidos,
+          aventuras increíbles y muchísimas razones para sonreír.
+        </p>
+        <p class="final">Espero que disfrutes muchísimo tu día. 🥳✨</p>
+        <button class="again" id="againButton">✨ Ver la sorpresa otra vez</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="confetti-container" id="confetti" aria-hidden="true"></div>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
